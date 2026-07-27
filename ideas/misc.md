@@ -18,3 +18,9 @@ The interesting stuff that doesn't have a section yet.
   hand-rolled daemon.
 - **Local DNS** (Pi-hole or plain dnsmasq) — makes the fleet feel like a real network,
   independent of whatever mesh tool ends up chosen.
+- **GUI for building your own personal flake** — name each machine you own (work
+  laptop, gaming PC, server...), pick packages, dial in your own Stylix
+  theme/dotfiles, no hand-editing Nix. Built on top of whatever the flake-parts
+  module split ends up being (see flake-structure.md) — this is the consumer-facing
+  layer over that, not a separate mechanism. An agent could eventually help drive
+  the configuring too, not just the GUI alone.

@@ -11,6 +11,9 @@ lukejcollins/nix-multi-system-flake; fortydeux/Fortydeux-NixOS-System-Flake).
   Reconsider specifically if ghost boots ever run on non-x86_64 borrowed hardware
   (an ARM laptop, an SBC) — that's a real multi-system-architecture problem
   flake-parts solves cleanly, distinct from the modules-organization question below.
+  Also reconsider if MojOS ever becomes something other people personalize into
+  their own OS (a DadOS-style fork) — that's the "exporting reusable modules for
+  other people's flakes" case named above, not just a hypothetical.
 - **`hosts/<hostname>/` directories**, not generic profiles — added when a machine
   actually exists, not built ahead of hardware. Matches the project's own convention
   of naming real machines (`nomadbaker`, `pearlybaker`) rather than placeholders.

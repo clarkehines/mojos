@@ -30,6 +30,44 @@ the terminal and forgetting about it everywhere else.
 Warm retro-futurism, aged paper, phosphor terminal look. No existing project matches
 this combination — genuinely original composition, not something to find and copy.
 
+A workshop, not a factory. Woody, not metal. Warm and inviting — the kind of space
+that draws the light out of you rather than coercing you into working. Reference
+points: aged paper, old NASA mission control, 1970s-80s technical instrumentation,
+vintage phosphor terminals. Information-dense but not chaotic — every element earns
+its place. Recovered from git history (pre-migration `raw/docs/vision/aesthetic.md`,
+commit bccf2d8) since this is where the real spec lives now.
+
+Full palette:
+
+| Role | Hex | Feel |
+|---|---|---|
+| Main background | `#F2ECD8` | Aged paper — the canvas everything sits on |
+| Panel background | `#E8E0C8` | Slightly darker — cards, sidebars, containers |
+| Panel header / border | `#DDD5B8` | Subtle separation without hard lines |
+| Primary text | `#2A1F0E` | Very dark warm brown — old ink on paper |
+| Secondary text | `#5A4A2E` | Lighter warm brown — labels, metadata |
+| Muted text | `#8A7A5E` | De-emphasized — timestamps, hints |
+| Primary accent | `#C47820` | Amber — phosphor glow, brass instruments |
+| Bright accent | `#E8960A` | Warmer amber — active states, highlights |
+| Status green | `#6A9A5A` | Muted vintage green — alive, running, ok |
+| Info blue | `#2A3A5A` | Dark navy — calm informational tone |
+| Dark panel background | `#1C1A10` | Near-black with warm undertone — not pure black |
+| Dark panel text | `#D4C89A` | Warm cream — readable, not harsh white |
+| Dark panel accent | `#8AB870` | Muted phosphor green — data, status, output |
+| Dark panel highlight | `#C47820` | Same amber — consistent energy color |
+
+Typography: monospace everywhere (data, labels, readouts, code, UI chrome) — this is
+a technical instrument, not a productivity app. Font candidates: Berkeley Mono,
+Iosevka, JetBrains Mono. No rounded corners on text containers, hard edges suit the
+look; hierarchy through weight and color, not font-size sprawl.
+
+Layout: panel-based, not card-based — panels have defined positions and purposes,
+cards float, this doesn't. Hard edges, minimal border-radius. Information-dense
+grids over whitespace, trusting the warm palette to stay readable. Spatial
+consistency — things live in the same place every time, reinforcing spatial memory.
+Dark panels as focal points — a terminal, a data readout, a diagram lives in a dark
+panel, the contrast draws the eye without shouting.
+
 ## Widget/launcher/notification options
 
 Past what's already chosen (Hyprland, waybar, kitty, rofi-wayland, pipewire):
